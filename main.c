@@ -321,5 +321,11 @@ int main(int argc, char ** argv)
 				HCE_response_len = 0;
             }
         }
+		else
+		{
+			//TODO
+			// send a apdu to unkown type scanner or appp
+			// to make sure the nfc connection is exist.
+		}
     }while(1);
 }
